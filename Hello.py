@@ -1,5 +1,4 @@
 import pickle
-import sklearn
 from flask import Flask, request
 
 
