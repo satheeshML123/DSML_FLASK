@@ -10,7 +10,7 @@ def hello_world():
 
 @app.route("/ping")
 def pinger():
-    return {'Message' : 'Hi I am pinging.............'}
+    return {'Message': 'Hi I am pinging.............'}
 
 model_pickle=open('artifacts/classifier.pkl','rb')
 clf=pickle.load(model_pickle)
